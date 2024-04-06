@@ -123,6 +123,9 @@ class QuizBowlApp():
         final_score_label = ttk.Label(window, text="Quiz Finished!\nYour Score: {}/{}".format(self.correct_answers, self.total_questions), font=("Helvetica", 16))
         final_score_label.grid(row=4, column=0, columnspan=2, pady=10)
 
+        # Destroy the quiz window
+        self.root.deiconify()
+
         # Close connection
         self.conn.close()
 
