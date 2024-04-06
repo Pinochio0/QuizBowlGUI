@@ -28,7 +28,7 @@ elif category_choice == '3':
     category_table = 'econ2010_questions'
 elif category_choice == '4':
     category_table = 'db3850_questions'
-elif category_choice == '4':
+elif category_choice == '5':
     category_table = 'dbmgt3860_questions'
 else:
     print("Invalid choice. Exiting...")
